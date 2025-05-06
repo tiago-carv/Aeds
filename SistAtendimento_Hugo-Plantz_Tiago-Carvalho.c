@@ -217,7 +217,7 @@ void remover(No **raiz, int chave) {
         x = z->esq;
         transplant(raiz, z, z->esq);
     } else {
-        // **Remo��o pelo antecessor**
+        
         y = maximo(z->esq);
         y_orig_cor = y->cor;
         x = y->esq;
